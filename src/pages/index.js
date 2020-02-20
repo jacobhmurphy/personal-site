@@ -2,12 +2,14 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
+import StyledHomepageHero from "../components/backgroundsection"
 import SEO from "../components/seo"
 import "bootstrap/dist/css/bootstrap.min.css"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
+    <StyledHomepageHero></StyledHomepageHero>
     <div className="container-fluid">
       <div className="row">
         <div className="col-md">

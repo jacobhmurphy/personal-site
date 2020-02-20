@@ -4,13 +4,13 @@ import styled from "styled-components"
 
 import BackgroundImage from "gatsby-background-image"
 
-const BackgroundSection = ({ className }) => (
+const HomepageHero = ({ className }) => (
   <StaticQuery
     query={graphql`
       query {
         desktop: file(relativePath: { eq: "IMG_2123.jpeg" }) {
           childImageSharp {
-            fluid(quality: 90, maxWidth: 1920) {
+            fluid(quality: 100, maxWidth: 4160) {
               ...GatsbyImageSharpFluid_withWebp
             }
           }
@@ -18,7 +18,6 @@ const BackgroundSection = ({ className }) => (
       }
     `}
     render={data => {
-      // Set ImageData.
       const imageData = data.desktop.childImageSharp.fluid
       return (
         <BackgroundImage
@@ -27,18 +26,24 @@ const BackgroundSection = ({ className }) => (
           fluid={imageData}
           backgroundColor={`#040e18`}
         >
-          <h2>gatsby-background-image</h2>
+          <div className="container-fluid">
+            <h1 className="display-3 text-light">Hi!</h1>
+            <p className="lead text-light">
+              My name is Jacob Murphy, and I'm a software developer based out of
+              Orlando, Florida.
+            </p>
+          </div>
         </BackgroundImage>
       )
     }}
   />
 )
 
-const StyledBackgroundSection = styled(BackgroundSection)`
-  width: 100%;
-  background-position: bottom center;
-  background-repeat: repeat-y;
+const StyledHomepageHero = styled(HomepageHero)`
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
 `
 
-export default StyledBackgroundSection
+export default StyledHomepageHero
