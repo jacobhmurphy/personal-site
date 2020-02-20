@@ -21,14 +21,9 @@ const MyNavbar = ({ siteTitle }) => {
         <NavbarBrand href="/">{siteTitle}</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <Nav className="mr-auto mt-2" navbar>
+          <Nav className="mr-auto mt-lg-0" navbar>
             <NavItem>
-              <NavLink href="https://www.google.com/">Google</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">
-                GitHub
-              </NavLink>
+              <NavLink href="https://github.com/jacobhmurphy">GitHub</NavLink>
             </NavItem>
           </Nav>
         </Collapse>
