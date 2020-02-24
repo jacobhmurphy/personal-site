@@ -1,19 +1,22 @@
 import React from "react"
-import PropTypes from "prop-types"
-import github from "../images/GitHub-Mark-120px-plus.png"
+import github from "../images/GitHub-Mark-32px copy.png"
 
 const Footer = class extends React.Component {
   render() {
     return (
       <footer>
-        <div className="row">
-          <div class="col-sm">
+        <div className="row container-fluid">
+          <div className="col">
             © {new Date().getFullYear()}, Built with
             {` `}
             <a href="https://www.gatsbyjs.org">Gatsby</a>
           </div>
-          <div class="col-sm">
-            <a title="github" href="https://github.com/jacobhmurphy">
+          <div className="col">
+            <a
+              title="github"
+              href="https://github.com/jacobhmurphy"
+              className="float-right"
+            >
               <img src={github} alt="GitHub" />
             </a>
           </div>
@@ -21,10 +24,6 @@ const Footer = class extends React.Component {
       </footer>
     )
   }
-}
-
-Footer.propTypes = {
-  children: PropTypes.node.isRequired,
 }
 
 export default Footer

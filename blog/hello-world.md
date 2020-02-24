@@ -1,4 +1,5 @@
 ---
+path: "blog/hello-world"
 title: Hello world
 date: 2020-02-23-T15:04:10.000Z
 description: My first blog post
