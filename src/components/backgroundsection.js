@@ -27,11 +27,7 @@ const HomepageHero = ({ className }) => (
           backgroundColor={`#040e18`}
         >
           <div className="container-fluid">
-            <h1 className="display-3 text-light">Hi!</h1>
-            <p className="lead text-light">
-              My name is Jacob Murphy, and I'm a software developer based out of
-              Orlando, Florida.
-            </p>
+            <h1 className="display-3 text-light">Hi there!</h1>
           </div>
         </BackgroundImage>
       )
