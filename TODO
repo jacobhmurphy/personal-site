@@ -1,0 +1,9 @@
+# To-Do List
+
+- Figure out a typography solution, preferably with a serif font that's a system font (I don't want to pay for TypeKit here)
+- Dark mode CSS for Apple platforms
+- Fix the DNS issues with Hover and Netlify
+- Fix the hero image with ImageOptim and Affinity Photo
+- Blog feature
+  - micro.blog integration?
+  - RSS feed for blog
