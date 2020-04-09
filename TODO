@@ -1,6 +1,9 @@
 # To-Do List
 
 - Figure out a typography solution, preferably with a serif font that's a system font (I don't want to pay for TypeKit here)
+  - Source Serif Pro via Google Fonts - https://fonts.google.com/specimen/Source+Serif+Pro
+  - Responsive Design chapter from Practical Typography - https://practicaltypography.com/responsive-web-design.html
+  - guidelines on Line Length from Practical Typography - https://practicaltypography.com/typography-in-ten-minutes.html
 - Dark mode CSS for Apple platforms
 - Fix the DNS issues with Hover and Netlify
 - Fix the hero image with ImageOptim and Affinity Photo
