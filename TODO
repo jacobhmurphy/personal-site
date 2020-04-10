@@ -4,6 +4,7 @@
   - Source Serif Pro via Google Fonts - https://fonts.google.com/specimen/Source+Serif+Pro
   - Responsive Design chapter from Practical Typography - https://practicaltypography.com/responsive-web-design.html
   - guidelines on Line Length from Practical Typography - https://practicaltypography.com/typography-in-ten-minutes.html
+  * Add Google Font via React Helmet in layout.js; don't touch the SEO component yet
 - Dark mode CSS for Apple platforms
 - Fix the DNS issues with Hover and Netlify
 - Fix the hero image with ImageOptim and Affinity Photo
